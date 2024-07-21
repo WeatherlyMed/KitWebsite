@@ -1,0 +1,82 @@
+/* Import Monstera font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monstera&display=swap');
+
+body {
+    font-family: 'Monstera', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* Pastel pink background */
+    color: #333; /* Dark grey text for readability */
+}
+
+header {
+    background-color: #ffcccb; /* Light pastel pink */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #ffb6c1; /* Slightly darker pastel pink */
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff9999; /* Darker pastel pink */
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
