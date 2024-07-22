@@ -202,3 +202,31 @@ footer {
 footer p {
     margin: 0;
 }
+@media (max-width: 768px) {
+    nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        float: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 1em;
+        text-align: center;
+    }
+
+    main {
+        padding-bottom: 4em; /* Add space for the fixed nav bar */
+    }
+}
