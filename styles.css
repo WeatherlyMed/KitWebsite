@@ -119,6 +119,75 @@ main p {
     text-align: justify;
 }
 
+.banner {
+    background-color: #ffebee; /* Light pastel pink */
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.contact-item {
+    background-color: #ffebee; /* Light pastel pink background for contact items */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 45%;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 1em;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1em;
+}
+
+.contact-text {
+    padding: 1em;
+}
+
+.contact-text h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.contact-text p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0.5em 0;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: #ff6666; /* Darker pastel pink */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-text a:hover {
+    color: #cc0000; /* Even darker pastel pink */
+}
+
 footer {
     background-color: #ffb6c1;
     color: white;
