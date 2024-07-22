@@ -66,6 +66,59 @@ main p {
     line-height: 1.6;
 }
 
+.bio {
+    margin-bottom: 2em;
+}
+
+.bio h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.gallery-item {
+    background-color: #ffebee; /* Light pastel pink background for gallery items */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff9999; /* Darker pastel pink border */
+}
+
+.gallery-text {
+    padding: 1em;
+}
+
+.gallery-text h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.gallery-text p {
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: justify;
+}
+
 footer {
     background-color: #ffb6c1;
     color: white;
