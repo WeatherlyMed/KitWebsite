@@ -8,6 +8,14 @@ body {
     background-color: #ffe6e6; /* Pastel pink background */
     color: #333; /* Dark grey text for readability */
 }
+body img{
+    background-color: #ffebee; /* Light pastel pink background for gallery items */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-width: 90%;
+    max-width: 90%;/* Dark grey text for readability */
+}
 
 header {
     background-color: #ffcccb; /* Light pastel pink */
